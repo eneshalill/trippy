@@ -1,0 +1,43 @@
+.footerRow{
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+  padding-bottom: 30px;
+  background-color: black;
+  color: hsl(0, 50%, 98%);
+}
+
+.footerCol{
+  min-width: 180px;
+}
+
+.footerTitle{
+  margin: 0 0 14px;
+  font-weight: 700;
+}
+
+.footerList{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerItem{
+  margin: 10px 0;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.footerItem:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footerLog{
+  padding: 40px 100px;
+    
+        color: aliceblue;
+    
+}

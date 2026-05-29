@@ -1,0 +1,29 @@
+/* الكرت نفسه */
+.containertrips {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  width: 32%;              /* 3 كروت في الصف الواحد تقريبًا */
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.containertrips img {
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+  height: 250px;
+  object-fit: cover;
+  width: 100%;          /* مهم: خَلّ الصورة تملا عرض الكرت */
+  margin-bottom: 1rem;
+}
+.containertrips p {
+  padding-bottom: 1rem;
+  /* لا تحتاج width هنا، خله ياخذ 100% طبيعي */
+}
+
+.containertrips:hover {
+        background-color: #dedcdc;
+}
+

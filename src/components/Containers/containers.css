@@ -1,0 +1,15 @@
+/* src/components/Containers/containers.css */
+
+.containers {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;        /* مسافة بين الكروت */
+  margin-top: 2rem;
+}
+
+/* لو حاب يخبو تحت بعض في الشاشات الصغيرة: */
+@media (max-width: 768px) {
+  .containers {
+    flex-direction: column;
+  }
+}
