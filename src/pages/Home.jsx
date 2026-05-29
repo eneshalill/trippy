@@ -5,8 +5,8 @@ import SectionTitle from "../components/SectionTitle/SectionTitle";
 import PopularContainer from "../components/PopularContainer/PopularContainer";
 import Card from "../components/Card/Card";
 import Containers from "../components/Containers/Containers";
-import Footer from "../components/footer/footer";
-import FooterDatas from "../components/footerDatas/FooterDatas";
+import Footer from "../components/Footer/Footer";
+import FooterDatas from "../components/FooterDatas/FooterDatas";
 
 const Home = () => {
     // مصفوفه تحفط في متغير ليتم استدعاء عناصر ناف بار مع ايقوناته ديناميكيا

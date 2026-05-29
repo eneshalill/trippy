@@ -1,4 +1,4 @@
-import "./FooterDatas.css"
+import "./footerDatas.css"
 const FooterDatas = ({title, links}) => {
   return (
     <div className="footerCol">
