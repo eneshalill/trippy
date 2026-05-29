@@ -119,7 +119,7 @@ const Home = () => {
 
             <div className="footerRow">
               {informations?.map((information) => (
-                <FooterDatas
+                <footers
                   key={information.title}
                   title={information.title}
                   links={information.links}

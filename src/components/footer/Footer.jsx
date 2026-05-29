@@ -1,8 +1,6 @@
-import "./footer.css"
-const Footer = ({children}) => {
-  return (
-   <footer>{children}</footer>
-  )
-}
+import "./footer.css";
+const Footer = ({ children }) => {
+  return <footer>{children}</footer>;
+};
 
-export default Footer
+export default Footer;

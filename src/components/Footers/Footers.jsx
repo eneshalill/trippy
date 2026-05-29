@@ -1,5 +1,5 @@
 import "./footers.css";
-const FooterDatas = ({ title, links }) => {
+const Footers = ({ title, links }) => {
   return (
     <div className="footerCol">
       <h4 className="footerTitle"> {title} </h4>
@@ -15,4 +15,4 @@ const FooterDatas = ({ title, links }) => {
   );
 };
 
-export default FooterDatas;
+export default Footers;
