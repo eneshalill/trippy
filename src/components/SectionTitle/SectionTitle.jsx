@@ -1,4 +1,4 @@
-import "./SectionTitle.css"
+import "./sectionTitle.css"
 const SectionTitle = ({
   title,
   subTitle,

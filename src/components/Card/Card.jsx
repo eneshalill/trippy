@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./card.css";
 const Card = ({ photo, title1, text1 }) => {
   return (
     <div className="containertrips">

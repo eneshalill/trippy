@@ -1,4 +1,4 @@
-import "./Section.css"
+import "./section.css"
 const Section = ({children}) => {
   return (
    <section>

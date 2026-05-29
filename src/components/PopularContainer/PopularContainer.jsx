@@ -1,4 +1,4 @@
-import "./PopularContainer.css";
+import "./popularContainer.css";
 
 const PopularContainer = ({ title, text, firstImg, secImg, reverse}) => {
   return (
